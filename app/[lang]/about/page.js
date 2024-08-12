@@ -1,10 +1,10 @@
-export const runtime = 'edge';
-
 'use client';
 import { AboutsList } from '@/lib/aboutList';
 import { usePathname } from 'next/navigation';
 import { defaultLocale } from '@/lib/i18n';
 import { useEffect, useState } from 'react';
+
+export const runtime = 'edge';
 
 export default function About() {
 	const pathname = usePathname();

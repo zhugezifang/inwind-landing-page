@@ -1,9 +1,8 @@
 "use client";
 
-export const runtime = 'edge';
-
-
 import { useState } from 'react';
+
+export const runtime = 'edge';
 
 export default function HomePage() {
   const [name, setName] = useState('');
