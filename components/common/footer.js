@@ -1,6 +1,6 @@
 'use client';
-import Image from 'next/image';
-import { NavLinksList } from '@/lib/navLinksList';
+//import Image from 'next/image';
+import { FootersList } from '@/lib/footersList';
 import { usePathname } from 'next/navigation';
 import { defaultLocale } from '@/lib/i18n';
 import { useEffect, useState } from 'react';
@@ -17,57 +17,80 @@ export default function Footer() {
 			} else {
 				setLangName(pathname.split('/')[1]);
 			}
-			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
+			setLinkList(FootersList[`Footer_${langName.toUpperCase()}`] || []);
 		};
 		fetchLinksList();
 	}, [pathname, langName]);
 
 	return (
-		<footer className='w-full px-5 py-10 bg-[#202020] text-[#f7f7f7] '>
-			<div className='max-w-[1024px] mx-auto flex flex-col md:flex-row justify-between items-center md:items-end gap-2 text-sm'>
-				<div className='flex flex-col items-center md:items-start'>
-					<a
-						aria-label='landing page template'
-						className='flex items-center mb-3'
-						title='landing page template'
-						href={`/${langName}`}
-					>
-						<Image
-							width={200}
-							height={200}
-							src={'/logo.gif'}
-							className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
-							alt='logo'
-						></Image>
-						<h2 className='ml-3 font-bold leading-5'>Landing Page</h2>
-					</a>
-					<div className='flex flex-wrap justify-center gap-x-2 md:gap-x-5 gap-y-1'>
-						{linkList.map((link, index) => {
+    <footer class="bg-gray-100">
+        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+            <div class="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Products</h3>
+                    <ul class="text-gray-500">
+                        <li class="mb-4">
+                            <a href="https://www.chronological-age-calculator.online/" target="_blank" class=" hover:underline">Chronological Age Calculator
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://mnemonicgenerator.online/" target="_blank" class="hover:underline">Mnemonic Generator
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://yaelokreocmaker.online/" target="_blank" class="hover:underline">Yaelokre OC Maker
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://random-pokemon-generator.xyz/" target="_blank" class="hover:underline">Random Pokemon Generator
+                            </a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="https://bottleneck-calculators.online/" target="_blank" class="hover:underline">Bottleneck Calculator
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</h3>
+                    <ul class="text-gray-500">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Discord Server</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Twitter</a>
+                        </li>
+                        <li class="mb-4">
+                         <a href="#" class="hover:underline">Facebook</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h3>
+                    <ul class="text-gray-500">
+                        {linkList.map((link, index) => {
 							return (
-								<a
-									key={index}
-									title={link.name}
-									href={`/${langName}${link.url}`}
-								>
-									{link.name}
-								</a>
+                                <li class="mb-4" key={index}>
+                                    <a href={`${link.url}`} class="hover:underline">{link.name}</a>
+                                </li>
 							);
 						})}
-					</div>
-				</div>
+                    </ul>
+                </div>
 
-				<p>
-					©{' '}
-					<a
-						title={'huglemon'}
-						href='http://huglemon.com?rel=landingpage'
-						target='_blank'
-					>
-						hugLemon
-					</a>{' '}
-					present.
-				</p>
-			</div>
-		</footer>
+                <div>
+                    <a href="https://anything-generator.online/" target="_blank" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
+                    AnyThing Generator   
+                    </a>
+                    Copyright © 2024 All rights reserved
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
 	);
 }
