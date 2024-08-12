@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import { defaultLocale, getDictionary } from '@/lib/i18n';
 
 import Hero from '@/components/home/hero';

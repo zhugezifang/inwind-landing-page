@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 'use client';
 import { AboutsList } from '@/lib/aboutList';
 import { usePathname } from 'next/navigation';

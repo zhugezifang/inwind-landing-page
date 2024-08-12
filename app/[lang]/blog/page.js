@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 export default function About() {
 	return (
 		<><div class="max-w-4xl w-full mx-auto text-center py-8">
