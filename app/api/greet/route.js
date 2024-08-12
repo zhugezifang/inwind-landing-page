@@ -1,4 +1,6 @@
 // app/api/greet/route.js
+export const runtime = 'edge';
+
 export async function POST(request) {
   const body = await request.json();
   const name = body.name;
