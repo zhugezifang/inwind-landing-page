@@ -23,68 +23,67 @@ export default function Footer() {
 	}, [pathname, langName]);
 
 	return (
-    <footer class="bg-gray-100">
-        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-            <div class="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
+    <footer className="bg-gray-100">
+        <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
                 <div>
-                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Products</h3>
-                    <ul class="text-gray-500">
-                        <li class="mb-4">
-                            <a href="https://www.chronological-age-calculator.online/" target="_blank" class=" hover:underline">Chronological Age Calculator
+                    <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Products</h3>
+                    <ul className="text-gray-500">
+                        <li className="mb-4">
+                            <a href="https://www.chronological-age-calculator.online/" target="_blank" className=" hover:underline">Chronological Age Calculator
                             </a>
                         </li>
-                        <li class="mb-4">
-                            <a href="https://mnemonicgenerator.online/" target="_blank" class="hover:underline">Mnemonic Generator
+                        <li className="mb-4">
+                            <a href="https://mnemonicgenerator.online/" target="_blank" className="hover:underline">Mnemonic Generator
                             </a>
                         </li>
-                        <li class="mb-4">
-                            <a href="https://yaelokreocmaker.online/" target="_blank" class="hover:underline">Yaelokre OC Maker
+                        <li className="mb-4">
+                            <a href="https://yaelokreocmaker.online/" target="_blank" className="hover:underline">Yaelokre OC Maker
                             </a>
                         </li>
-                        <li class="mb-4">
-                            <a href="https://random-pokemon-generator.xyz/" target="_blank" class="hover:underline">Random Pokemon Generator
+                        <li className="mb-4">
+                            <a href="https://random-pokemon-generator.xyz/" target="_blank" className="hover:underline">Random Pokemon Generator
                             </a>
                         </li>
-                        <li class="mb-4">
-                            <a href="https://bottleneck-calculators.online/" target="_blank" class="hover:underline">Bottleneck Calculator
+                        <li className="mb-4">
+                            <a href="https://bottleneck-calculators.online/" target="_blank" className="hover:underline">Bottleneck Calculator
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</h3>
-                    <ul class="text-gray-500">
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Discord Server</a>
+                    <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</h3>
+                    <ul className="text-gray-500">
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Discord Server</a>
                         </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Twitter</a>
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Twitter</a>
                         </li>
-                        <li class="mb-4">
-                         <a href="#" class="hover:underline">Facebook</a>
+                        <li className="mb-4">
+                         <a href="#" className="hover:underline">Facebook</a>
                         </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline">Contact Us</a>
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Contact Us</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h3>
-                    <ul class="text-gray-500">
+                    <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h3>
+                    <ul className="text-gray-500">
                         {linkList.map((link, index) => {
 							return (
-                                <li class="mb-4" key={index}>
-                                    <a href={`${link.url}`} class="hover:underline">{link.name}</a>
-                                </li>
+								<li className="mb-4" key={index}>
+									<a href={`${link.url}`}  className="hover:underline">
+									{link.name}
+									</a>
+								</li>
 							);
 						})}
                     </ul>
                 </div>
 
                 <div>
-                    <a href="https://anything-generator.online/" target="_blank" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
-                    AnyThing Generator   
-                    </a>
                     Copyright © 2024 All rights reserved
                 </div>
                 

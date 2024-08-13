@@ -1,14 +1,10 @@
 {
 	"Hero": {
 		"h1": "TikTok Money Calculator",
-		"h2": "This is a free, open-source and powerful landing page template for saas project, it will help you to make your startup faster."
+		"h2": "The TikTok Money Calculator is an essential tool for content creators and influencers looking to estimate their potential earnings on the popular social media platform."
 	},
 	"Feature": {
-		"h2": "Our Feature",
-		"h3": "Features of inWind Landing Page Template",
-		"description1": "Awesome landing page template.",
-		"description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
-		"description3": "Completely open source and completely free."
+		"h3": "Features of TikTok Money Calculator"
 	},
 	"Pricing": {
 		"h2": "Our Pricing",
@@ -18,23 +14,17 @@
 		"follow": "关注我的推特。"
 	},
 	"Testimonial": {
-		"h2": "Testimonials",
-		"h3": "Wall of Love",
-		"description1": "If you use this landing page template and recommend it on your Twitter,",
-		"description2": "please let me know",
-		"description3": ",I will display your tweet and recommendation here."
+		"h3": "FeedBack of TikTok Money Calculator"
 	},
 	"Faq": {
-		"h2": "FAQ",
-		"h3": "Frequently Asked Questions",
-		"description": "Here are some of the most frequently asked questions."
+		"h3": "FAQ of TikTok Money Calculator"
 	},
 	"CTA": {
-		"h2": "Build Your Landing Page Now",
+		"h2": "Start to calculate your TikTok Money",
 		"h3": "Build your landing page, show your product, and start earning!"
 	},
 	"CTAButton": {
-		"btn1": "Get Source Code",
+		"btn1": "Try TikTok Money Calculator for free",
 		"btn2": "View Docs"
 	}
 }

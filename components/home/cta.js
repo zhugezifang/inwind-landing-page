@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { SiGithub } from 'react-icons/si';
+//import { SiGithub } from 'react-icons/si';
 
 export default function Cta({ locale, CTALocale }) {
 	return (
@@ -16,18 +16,19 @@ export default function Cta({ locale, CTALocale }) {
 				}}
 			>
 				<div className='relative z-10 flex flex-col gap-5 items-start md:items-center mb-10 mx-auto'>
+{/* 
 					<h2 className='font-bold  text-5xl md:text-7xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] md:text-center bg-clip-text text-transparent !leading-[1.25em]'>
 						{locale.h2}
 					</h2>
-
 					<h3 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center'>{locale.h3}</h3>
-
+*/}
 					<a
 						title='get source code'
-						className='mt-10 btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
+						className='btn btn-sm md:btn-md btn-base border-none hover:ring-1 ring-base-content text-base-100 hover:text-base-content bg-base-content hover:bg-base-100 rounded-full'
 						href='#'
 					>
-						<SiGithub /> {CTALocale.btn1}
+						{/* <SiGithub /> */}
+						{CTALocale.btn1}
 					</a>
 				</div>
 			</motion.div>
