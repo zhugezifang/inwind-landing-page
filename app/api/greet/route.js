@@ -15,7 +15,7 @@ export async function POST(request) {
       "accept-language": "zh-CN,zh;q=0.9",
       "content-type": "multipart/form-data; boundary=----WebKitFormBoundary7D0Ity8qMap5zZK3"
     },
-    "referrer": "https://tiktokmoneycalc.com/",
+    //"referrer": "https://tiktokmoneycalc.com/",
     //"referrerPolicy": "strict-origin-when-cross-origin",
     "body": "------WebKitFormBoundary7D0Ity8qMap5zZK3\r\nContent-Disposition: form-data; name=\"action\"\r\n\r\ntiktok-calculate\r\n------WebKitFormBoundary7D0Ity8qMap5zZK3\r\nContent-Disposition: form-data; name=\"username\"\r\n\r\n"+name+"\r\n------WebKitFormBoundary7D0Ity8qMap5zZK3--\r\n",
     "method": "POST"
