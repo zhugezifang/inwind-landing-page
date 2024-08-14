@@ -29,13 +29,12 @@ export default function CustomHead() {
 			return (
 		<>
 			<title key={index}>{link.title}</title>
-			<meta name="google-site-verification" content="LTQwS7fUgG65xzbbzcPNCkz_73JdYc8Be9vQg3FynhU" />
 			<meta name="keywords" content={`${link.keywords}`} />
 			<meta name="description" content={`${link.description}`} />
 		</>
 				);
 		})}
-		
+
 		<script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-X8FN5Y656M`}
