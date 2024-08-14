@@ -1,5 +1,5 @@
 module.exports = {
-	siteUrl: 'https://landingpage.huglemon.com',
+	siteUrl: 'https://tiktok-money-calculator.online',
 	generateRobotsTxt: true,
 	sitemapSize: 7000,
 };
