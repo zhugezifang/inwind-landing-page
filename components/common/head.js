@@ -35,8 +35,6 @@ export default function CustomHead() {
 		</>
 				);
 		})}
-	
-		
 		
 		<script
 			dangerouslySetInnerHTML={{
