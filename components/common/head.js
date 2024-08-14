@@ -29,6 +29,7 @@ export default function CustomHead() {
 			return (
 		<>
 			<title key={index}>{link.title}</title>
+			<meta name="google-site-verification" content="LTQwS7fUgG65xzbbzcPNCkz_73JdYc8Be9vQg3FynhU" />
 			<meta name="keywords" content={`${link.keywords}`} />
 			<meta name="description" content={`${link.description}`} />
 		</>
