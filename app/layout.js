@@ -1,12 +1,13 @@
 import './globals.css';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 
-import { SiteConfig } from '@/lib/config/site';
+//import { SiteConfig } from '@/lib/config/site';
 import CustomHead from '@/components/common/head';
 import Navbar from '@/components/common/navbar';
 import Footer from '@/components/common/footer';
 import { ThemeProvider } from '@/context/ThemeContext';
 
+{/*
 export const metadata = {
 	title: SiteConfig.name,
 	description: SiteConfig.description,
@@ -18,6 +19,7 @@ export const metadata = {
 	openGraph: SiteConfig.openGraph,
 	twitter: SiteConfig.twitter,
 };
+*/}
 
 const jakarta = Plus_Jakarta_Sans({
 	weight: ['500', '800'],
