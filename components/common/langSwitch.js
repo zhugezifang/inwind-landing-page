@@ -44,7 +44,7 @@ export default function LangSwitch() {
 					return (
 						<li key={key}>
 							<a
-								href='#'
+							    href={`/${key}`}
 								title={`switch to ${name}`}
 								className='cursor-pointer'
 								onClick={handleSwitchLanguage(key)}
