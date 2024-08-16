@@ -1,5 +1,5 @@
 module.exports = {
-	siteUrl: 'https://tiktok-money-calculator.online',
-	generateRobotsTxt: false,
+	siteUrl: ' http://localhost:3000',
+	generateRobotsTxt: true,
 	sitemapSize: 7000,
 };
