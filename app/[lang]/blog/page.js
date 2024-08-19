@@ -1,8 +1,16 @@
 export const runtime = 'edge';
 
+export async function generateMetadata() {
+  return {
+    title: 'TikTok Money Calculator Blog List',
+    description: 'TikTok Money Calculator Blog List',
+  };
+}
+
 export default function About() {
 	return (
-		<><div class="max-w-4xl w-full mx-auto text-center py-8">
+		<>
+    <div class="max-w-4xl w-full mx-auto text-center py-8">
             <h1 class="md:text-4xl text-3xl font-extrabold">TikTok Money Calculator Blog List</h1>
     	</div>
 		<section class="text-gray-600 body-font overflow-hidden">

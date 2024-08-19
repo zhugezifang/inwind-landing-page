@@ -9,6 +9,17 @@ import Calculator from '@/components/home/calculator';
 //import Testimonial from '@/components/home/testimonial';
 import Faq from '@/components/home/faq';
 //import Cta from '@/components/home/cta';
+
+export async function generateMetadata({ params }) {
+	const langName = params.lang || defaultLocale;
+	const dict = await getDictionary(langName); // 获取内容
+	return {
+	  title: dict.SEO.title,
+	  description: dict.SEO.description,
+	  keywords: dict.SEO.keywords
+	};
+}
+
 export default async function Home({ params }) {
 	const langName = params.lang || defaultLocale;
 	const dict = await getDictionary(langName); // 获取内容

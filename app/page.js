@@ -9,12 +9,23 @@ import Calculator from '@/components/home/calculator';
 import Faq from '@/components/home/faq';
 //import Cta from '@/components/home/cta';
 
+export async function generateMetadata({ params }) {
+	const langName = params.lang || defaultLocale;
+	const dict = await getDictionary(langName); // 获取内容
+	return {
+	  title: dict.SEO.title,
+	  description: dict.SEO.description,
+	  keywords: dict.SEO.keywords
+	};
+}
+
 export default async function Home({ params }) {
 
 	const langName = params.lang || defaultLocale;
 	const dict = await getDictionary(langName); // 获取内容
 
 	return (
+		<>
 		<div className='max-w-[1280px] mx-auto'>
 			<Calculator
 				locale={dict.Hero}
@@ -45,5 +56,7 @@ export default async function Home({ params }) {
 				CTALocale={dict.CTAButton}
 			/>*/}
 		</div>
+		</>
 	);
+	
 }
