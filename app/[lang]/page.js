@@ -8,6 +8,8 @@ import Calculator from '@/components/home/calculator';
 //import Pricing from '@/components/home/pricing';
 //import Testimonial from '@/components/home/testimonial';
 import Faq from '@/components/home/faq';
+import Content from '@/components/home/content';
+
 //import Cta from '@/components/home/cta';
 
 export async function generateMetadata({ params }) {
@@ -47,6 +49,10 @@ export default async function Home({ params }) {
 				langName={langName}
 			/>
 			*/}
+			<Content
+				locale={dict.Faq}
+				langName={langName}
+			/>
 			<Faq
 				locale={dict.Faq}
 				langName={langName}
