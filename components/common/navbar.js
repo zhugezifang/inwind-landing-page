@@ -43,7 +43,7 @@ export default function Navbar() {
 					alt='logo'
 				></Image>
 				*/}
-				<h2 className='ml-3 font-bold leading-5'>TikTok Money Calculator</h2>
+				<span className='ml-3 font-bold leading-5'>TikTok Money Calculator</span>
 			</a>
 
 			

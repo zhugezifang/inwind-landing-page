@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
             <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
                 <div>
-                    <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Products</h3>
+                    <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Products</span>
                     <ul className="text-gray-500">
                         <li className="mb-4">
                             <a href="https://www.chronological-age-calculator.online/" target="_blank" className=" hover:underline">Chronological Age Calculator
@@ -52,7 +52,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</h3>
+                    <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</span>
                     <ul className="text-gray-500">
                         <li className="mb-4">
                             <a href="#" className="hover:underline">Discord Server</a>
@@ -69,7 +69,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h3>
+                    <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</span>
                     <ul className="text-gray-500">
                         {linkList.map((link, index) => {
 							return (
