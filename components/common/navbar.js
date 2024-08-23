@@ -8,10 +8,9 @@ import ThemeToggle from './themeToggle';
 import LangSwitch from './langSwitch';
 
 import { usePathname } from 'next/navigation';
-import { defaultLocale } from '@/lib/i18n';
-import { NavLinksList } from '@/lib/navLinksList';
+import { defaultLocale, getDictionary } from '@/lib/i18n';
 
-export default function Navbar() {
+export default function Navbar({}) {
 	const pathname = usePathname();
 	const [langName, setLangName] = useState(defaultLocale);
 	const [linkList, setLinkList] = useState([]);
@@ -23,7 +22,8 @@ export default function Navbar() {
 			} else {
 				setLangName(pathname.split('/')[1]);
 			}
-			setLinkList(NavLinksList[`LINK_${langName.toUpperCase()}`] || []);
+			const dict = await getDictionary(langName); // 获取内容
+			setLinkList(dict.Nav || []);
 		};
 		fetchLinksList();
 	}, [pathname, langName]);

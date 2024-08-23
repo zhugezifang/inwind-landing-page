@@ -1,8 +1,7 @@
 'use client';
-import { ContentList } from '@/lib/contentsList';
 
 export default function Feature({ locale, langName = 'en' }) {
-	let list = ContentList[`Content_${langName.toUpperCase()}`] || [];
+	let list = locale.Content_List || [];
 	return (
 		<div className="relative isolate overflow-hidden px-6 py-6 shadow-2xl sm:rounded-3xl sm:px-24 xl:pt-4 flex justify-between items-center mt-4">
             <div className="mx-auto">

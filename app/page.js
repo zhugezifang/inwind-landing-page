@@ -49,11 +49,11 @@ export default async function Home({ params }) {
 				langName={langName}
 			/>*/}
 			<Content
-				locale={dict.Faq}
+				locale={dict}
 				langName={langName}
 			/>
 			<Faq
-				locale={dict.Faq}
+				locale={dict}
 				langName={langName}
 			/>
 			{/*<Cta

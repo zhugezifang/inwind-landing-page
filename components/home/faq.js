@@ -1,10 +1,11 @@
 'use client';
-import { FAQList } from '@/lib/faqsList';
 import { motion } from 'framer-motion';
 import { FaQuestionCircle } from 'react-icons/fa';
 
 export default function Feature({ locale, langName = 'en' }) {
-	let list = FAQList[`FAQ_${langName.toUpperCase()}`] || [];
+	
+	const Faq = locale.Faq;
+	let list = locale.FAQ_List || [];
 	return (
 		<section
 			id='faq'
@@ -27,7 +28,7 @@ export default function Feature({ locale, langName = 'en' }) {
 					</div>
 */}
 					<h2 className='font-bold text-3xl md:text-5xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] md:text-center bg-clip-text text-transparent !leading-[1.25em]'>
-						{locale.h3}
+						{Faq.h3}
 					</h2>
 {/*
 					<h4 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center'>{locale.description}</h4>

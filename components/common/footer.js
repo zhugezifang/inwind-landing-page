@@ -1,8 +1,7 @@
 'use client';
 //import Image from 'next/image';
-import { FootersList } from '@/lib/footersList';
 import { usePathname } from 'next/navigation';
-import { defaultLocale } from '@/lib/i18n';
+import { defaultLocale, getDictionary } from '@/lib/i18n';
 import { useEffect, useState } from 'react';
 
 export default function Footer() {
@@ -17,7 +16,8 @@ export default function Footer() {
 			} else {
 				setLangName(pathname.split('/')[1]);
 			}
-			setLinkList(FootersList[`Footer_${langName.toUpperCase()}`] || []);
+            const dict = await getDictionary(langName); // 获取内容
+			setLinkList(dict.Footer || []);
 		};
 		fetchLinksList();
 	}, [pathname, langName]);
