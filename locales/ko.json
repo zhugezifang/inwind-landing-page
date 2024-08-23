@@ -6,13 +6,13 @@
         }
     ],
     "SEO": {
-        "title": "TikTok Money Calculator - 무료 및 로그인 필요 없음",
-        "keywords": "TikTok Money Calculator, TikTok 수입 계산기, TikTok 수입 계산, TikTok에서 돈 계산하기",
-        "description": "TikTok Money Calculator는 인기 있는 SNS 플랫폼에서 잠재적인 수입을 추정하려는 콘텐츠 크리에이터와 인플루언서들에게 필수적인 도구입니다."
+        "title": "TikTok 수입 계산기 - 무료 및 로그인 필요 없음",
+        "keywords": "TikTok 수입 계산기, TikTok 수익 계산기, TikTok 수입 계산, TikTok에서 수입 계산하기",
+        "description": "TikTok 수입 계산기는 인기 있는 SNS 플랫폼에서 잠재적인 수입을 추정하려는 콘텐츠 크리에이터와 인플루언서들에게 중요한 도구입니다."
     },
     "Hero": {
-        "h1": "TikTok Money Calculator",
-        "h2": "TikTok Money Calculator는 인기 있는 SNS 플랫폼에서 잠재적인 수입을 추정하려는 콘텐츠 크리에이터와 인플루언서들에게 필수적인 도구입니다.",
+        "h1": "TikTok 수익 계산기",
+        "h2": "TikTok 수익 계산기는 인기 있는 SNS 플랫폼에서 잠재적인 수입을 추정하려는 콘텐츠 크리에이터와 인플루언서들에게 필수적인 도구입니다.",
         "btn": "수입 계산",
         "des1": "무료",
         "des2": "실시간 데이터",
@@ -24,8 +24,8 @@
             "name": "TikTok Money Calculator는 TikTok Coin Calculator라고도 불리며, 가상 선물을 구매하기 위해 필요한 TikTok 코인 수나 얻은 선물의 가치를 추정하는 도구입니다. 사용하려면 코인의 값이나 관심 있는 특정 선물을 입력합니다. 계산기는 이 코인들을 달러로 환산하여 가상 선물의 비용이나 잠재적인 수입을 이해하는 데 도움을 줍니다. 이는 플랫폼에서의 지출을 관리하려는 사용자나 받은 선물로부터의 수입을 추정하려는 크리에이터에게 유용합니다."
         },
         {
-            "title": "TikTok Money Calculator에서 돈을 어떻게 인출합니까?",
-            "name": "TikTok Calculator에서 돈을 인출하는 것은 몇 가지 간단한 단계를 포함합니다. 먼저, TikTok 계정이 확인된 PayPal 또는 은행 계정에 연결되어 있는지 확인합니다. 그런 다음, 앱 내의 TikTok Creator Fund 또는 TikTok Calculator 수입 섹션에 액세스합니다. '인출' 옵션을 선택하고, 원하는 금액을 입력한 다음, 인출 세부 정보를 확인합니다. 마지막으로, 거래를 확인하고 수입은 몇 영업일 내에 연결된 계정으로 전송됩니다. TikTok이 설정한 적용 가능한 수수료나 최소 인출 금액을 확인하도록 합니다."
+            "title": "TikTok Money Calculator에서 수입을 어떻게 인출합니까?",
+            "name": "TikTok Calculator에서 수입을 인출하는 것은 몇 가지 간단한 단계를 포함합니다. 먼저, TikTok 계정이 확인된 PayPal 또는 은행 계정에 연결되어 있는지 확인합니다. 그런 다음, 앱 내의 TikTok Creator Fund 또는 TikTok Calculator 수입 섹션에 액세스합니다. '인출' 옵션을 선택하고, 원하는 금액을 입력한 다음, 인출 세부 정보를 확인합니다. 마지막으로, 거래를 확인하고 수입은 몇 영업일 내에 연결된 계정으로 전송됩니다. TikTok이 설정한 적용 가능한 수수료나 최소 인출 금액을 확인하도록 합니다."
         },
         {
             "title": "TikTok Money Calculator를 어떻게 사용합니까?",
@@ -41,12 +41,12 @@
         }
     ],
     "Faq": {
-        "h3": "TikTok Money Calculator 관련 FAQ"
+        "h3": "TikTok 수익 계산기 관련 FAQ"
     },
     "FAQ_List": [
         {
-            "question": "TikTok Money Calculator란 무엇입니까?",
-            "answer": "TikTok Money Calculator는 팔로워 수, 참여율, 그리고 콘텐츠 성과를 기반으로 TikTok 계정으로부터 얼마나 많은 돈을 벌 수 있는지 추정하는 도구입니다."
+            "question": "TikTok 수입 계산기란 무엇입니까?",
+            "answer": "TikTok 수입 계산기는 팔로워 수, 참여율, 그리고 콘텐츠 성과를 기반으로 TikTok 계정으로부터 얼마나 많은 돈을 벌 수 있는지 추정하는 도구입니다."
         },
         {
             "question": "수입 추정치는 얼마나 정확합니까?",
@@ -58,15 +58,15 @@
         },
         {
             "question": "계산기가 내 TikTok 계정에 연결합니까?",
-            "answer": "아니요, TikTok Money Calculator는 직접 계정에 연결되지 않습니다. 추정치를 생성하기 위해 데이터를 수동으로 입력해야 합니다."
+            "answer": "아니요, TikTok 수입 계산기는 직접 계정에 연결되지 않습니다. 추정치를 생성하기 위해 데이터를 수동으로 입력해야 합니다."
         },
         {
             "question": "계산기가 미래의 수입을 예측할 수 있습니까?",
             "answer": "네, 계산기는 현재 성장률과 참여 메트릭을 기반으로 미래의 수입을 예측하여 재무 전략을 계획하는 데 도움을 줍니다."
         },
         {
-            "question": "TikTok Money Calculator를 사용하려면 비용이 드는가요?",
-            "answer": "아니요, 대부분의 TikTok Money Calculator는 기본 기능을 사용하기 위해 어떤 비용도 필요로 하지 않고 무료로 사용할 수 있습니다."
+            "question": "TikTok 수입 계산기를 사용하려면 비용이 드는가요?",
+            "answer": "아니요, 대부분의 TikTok 수입 계산기는 기본 기능을 사용하기 위해 어떤 비용도 필요로 하지 않고 무료로 사용할 수 있습니다."
         },
         {
             "question": "참여율은 어떻게 계산됩니까?",
@@ -74,7 +74,7 @@
         },
         {
             "question": "내 수입을 다른 인플루언서와 비교할 수 있습니까?",
-            "answer": "네, 일부 TikTok Money Calculator는 비교 도구를 제공하여 유사한 팔로워 수와 참여율을 가진 다른 인플루언서와 자신의 수입을 비교할 수 있습니다."
+            "answer": "네, 일부 TikTok 수입 계산기는 비교 도구를 제공하여 유사한 팔로워 수와 참여율을 가진 다른 인플루언서와 자신의 수입을 비교할 수 있습니다."
         },
         {
             "question": "계산기가 다른 니치를 고려합니까?",
@@ -89,13 +89,13 @@
             "answer": "새로운 콘텐츠를 게시한 후 특히, 가장 정확한 수입 추정치를 얻기 위해 데이터를 定期적으로 업데이트하는 것이 좋습니다."
         },
         {
-            "question": "TikTok Money Calculator의 제약은 무엇입니까?",
+            "question": "TikTok 수입 계산기의 제약은 무엇입니까?",
             "answer": "계산기는 사용할 수 있는 데이터와 업계 추세를 기반으로 추정치를 제공합니다. 그러나 독특한 딜, 브랜드 선호도, 또는 플랫폼 알고리즘의 갑작스러운 변화와 같은 것을 고려할 수는 없습니다."
         }
     ],
     "Footer": [
-        { "name": "About Us", "url": "" },
-        { "name": "Advertising Terms", "url": "" },
-        { "name": "Privacy Policy", "url": "" }
+        { "name": "About Us", "url": "/about" },
+        { "name": "Advertising Terms", "url": "/ads" },
+        { "name": "Privacy Policy", "url": "/privacy" }
     ]
 }
