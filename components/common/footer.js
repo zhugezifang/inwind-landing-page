@@ -49,6 +49,11 @@ export default function Footer() {
                             <a href="https://bottleneck-calculators.online/" title="Bottleneck Calculator" target="_blank" className="hover:underline">Bottleneck Calculator
                             </a>
                         </li>
+
+                        <li className="mb-4">
+                            <a href="https://woy.ai/" title="Woy AI Tools Directory" target="_blank" className="hover:underline">Woy AI Tools</a>
+                        </li>
+
                     </ul>
                 </div>
                 <div>
