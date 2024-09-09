@@ -49,6 +49,9 @@ export default function Footer() {
                             <a href="https://bottleneck-calculators.online/" target="_blank" className="hover:underline">Bottleneck Calculator
                             </a>
                         </li>
+                        <li className="mb-4">
+                            <a href="https://tap4.ai/" title="Tap4 AI Tools Directory" target="_blank" className="hover:underline">Tap4 AI Tools Diresctory</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
