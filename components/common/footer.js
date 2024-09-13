@@ -53,6 +53,9 @@ export default function Footer() {
                         <li className="mb-4">
                             <a href="https://bai.tools" target="_blank" className="hover:underline">BAI.tools</a>
                         </li>
+                        <li className="mb-4">
+                            <a href="https://woy.ai/" title="Woy AI Tools Directory" target="_blank" className="hover:underline">Woy AI Tools</a>
+                        </li>
 
                     </ul>
                 </div>
