@@ -56,7 +56,9 @@ export default function Footer() {
                         <li className="mb-4">
                             <a href="https://woy.ai/" title="Woy AI Tools Directory" target="_blank" className="hover:underline">Woy AI Tools</a>
                         </li>
-
+                        <li className="mb-4">
+                            <a href="https://tap4.ai/" title="Tap4 AI Tools Directory" target="_blank" className="hover:underline">Tap4 AI Tools Directory</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
