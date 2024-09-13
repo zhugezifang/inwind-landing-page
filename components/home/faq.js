@@ -51,7 +51,7 @@ export default function Feature({ locale, langName = 'en' }) {
 								tabIndex={0}
 								className='collapse collapse-arrow bg-base-200 border-b-[1px] border-base-content rounded-none bg-transparent'
 							>
-								<div className='collapse-title text-xl font-medium'>{item.question}</div>
+								<h3 className='collapse-title text-xl font-medium'>{item.question}</h3>
 								<div className='collapse-content'>
 									<p>{item.answer}</p>
 								</div>
