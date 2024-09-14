@@ -63,7 +63,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</span>
+                    <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Friend</span>
                     <ul className="text-gray-500">
                         <li className="mb-4">
                             <a href="https://iuu.ai/" target="_blank" className="hover:underline">iuu AI</a>
