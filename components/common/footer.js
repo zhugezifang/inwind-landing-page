@@ -59,22 +59,14 @@ export default function Footer() {
                         <li className="mb-4">
                             <a href="https://tap4.ai/" title="Tap4 AI Tools Directory" target="_blank" className="hover:underline">Tap4 AI Tools Directory</a>
                         </li>
+                        
                     </ul>
                 </div>
                 <div>
                     <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Support</span>
                     <ul className="text-gray-500">
                         <li className="mb-4">
-                            <a href="#" className="hover:underline">Discord Server</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Twitter</a>
-                        </li>
-                        <li className="mb-4">
-                         <a href="#" className="hover:underline">Facebook</a>
-                        </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Contact Us</a>
+                            <a href="https://iuu.ai/" target="_blank" className="hover:underline">iuu AI</a>
                         </li>
                     </ul>
                 </div>
