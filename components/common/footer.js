@@ -68,6 +68,9 @@ export default function Footer() {
                         <li className="mb-4">
                             <a href="https://iuu.ai/" target="_blank" className="hover:underline">iuu AI</a>
                         </li>
+                        <li className="mb-4">
+                            <a href='https://aipure.ai/' target='_blank' className="hover:underline">AIPURE AI</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
