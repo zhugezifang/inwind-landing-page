@@ -74,6 +74,9 @@ export default function Footer() {
                         <li className="mb-4">
                             <a href='https://dokeyai.com' target='_blank' className="hover:underline">DokeyAI</a>
                         </li>
+                        <li className="mb-4">
+                            <a href='https://navs.site' target='_blank' className="hover:underline">AI Nav Site</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
