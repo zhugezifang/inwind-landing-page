@@ -29,6 +29,10 @@ export default function Footer() {
                 <div>
                     <span className="mb-6 text-sm font-semibold text-gray-900 uppercase">Products</span>
                     <ul className="text-gray-500">
+                        <li class="mb-4">
+                            <a href="https://virtual-try-on.online/" target="_blank" class=" hover:underline">Kolors Virtual Try On
+                            </a>
+                        </li>
                         <li className="mb-4">
                             <a href="https://www.chronological-age-calculator.online/" target="_blank" className=" hover:underline">Chronological Age Calculator
                             </a>
